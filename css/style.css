@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+  padding-bottom: 49px;
+}
+
+header {
+  text-align: center;
+}
+
+.launchingh1 {
+  width: 100%;
+  margin-top: 40px;
+  font-family: "Libre Franklin", sans-serif;
+  color: #969696;
+  font-size: 48px;
+}
+
+.launchingh1 span {
+  font-weight: 700;
+  color: #15202a;
+}
+
+.subscribeP {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  margin-top: 16px;
+  color: #15202a;
+  font-size: 20px;
+}
+
+main {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.emailInput {
+  width: 421px;
+  height: 56px;
+  border-radius: 28px;
+  border: 1px solid #c2d3ff;
+  background: #fff;
+  box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0);
+  padding: 30px 18px;
+  outline: none;
+}
+
+.emailInput::placeholder {
+  color: #b8c7ed;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.errorDiv {
+  display: none;
+  text-align: left;
+  margin: 6px 30px;
+  color: #ff5466;
+  font-size: 12px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300px;
+}
+
+.notifyBtn {
+  margin-left: 16px;
+  width: 200px;
+  height: 56px;
+  border-radius: 28px;
+  cursor: pointer;
+  background: #4c7bf3;
+  box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+.ImageSection {
+  margin: 0 auto;
+  margin-top: 94px;
+  width: 568px;
+}
+
+.ImageSection img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 96px;
+  text-align: center;
+}
+
+.iconsUl {
+  display: flex;
+  justify-content: center;
+}
+
+.iconsUl li {
+  margin: 0 12px;
+}
+
+.iconsUl li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: #4c7bf3;
+  border: 1px solid rgba(76, 123, 243, 0.15);
+  transition: 0.3s ease;
+}
+.iconsUl li a:hover {
+  background-color: #4c7bf3;
+  color: #fff;
+}
+
+.copyRight {
+  font-size: 12px;
+  color: #969696;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 645px) {
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .emailInput {
+    width: 400px;
+  }
+  .notifyBtn {
+    width: 282px;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .ImageSection {
+    width: 483.615px;
+  }
+}
+
+@media screen and (max-width: 516px) {
+  .launchingh1 {
+    font-size: 39px;
+  }
+
+  .ImageSection {
+    width: 430px;
+  }
+}
+
+@media screen and (max-width: 432px) {
+  .launchingh1 {
+    font-size: 32px;
+  }
+
+  .ImageSection {
+    width: 400px;
+  }
+
+  .emailInput {
+    width: 390px;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .ImageSection {
+    width: 350px;
+  }
+
+  .emailInput {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .launchingh1 {
+    font-size: 22px;
+  }
+
+  .ImageSection {
+    width: 283.615px;
+  }
+
+  .emailInput {
+    width: 281px;
+  }
+  .notifyBtn {
+    width: 282px;
+  }
+}
